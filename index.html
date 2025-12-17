@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Арсений — сайт-портфолио</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container topbar">
+    <a class="brand" href="index.html">
+      <svg class="svgIcon"><use href="assets/icons.svg#spark"></use></svg>
+      Arseny
+      <span class="badge">Portfolio</span>
+    </a>
+
+    <button class="menuBtn">Меню</button>
+
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="heroGrid">
+      <div class="card">
+        <h1>Привет! Я Арсений</h1>
+        <p class="muted">
+          Это многостраничный сайт-портфолио, созданный вручную на HTML/CSS/JS.
+          Здесь собраны мои учебные проекты, навыки и контакты. Сайт адаптивный,
+          имеет навигацию по страницам, галерею работ и форму обратной связи с проверкой email.
+        </p>
+
+        <div class="btnRow">
+          <a class="btn primary" href="portfolio.html">Смотреть работы</a>
+          <a class="btn" href="about.html">Узнать обо мне</a>
+          <a class="btn" href="contacts.html">
+            <svg class="svgIcon"><use href="assets/icons.svg#mail"></use></svg>
+            Написать
+          </a>
+        </div>
+
+        <div class="kpi">
+          <div class="box"><b>HTML/CSS</b><div class="muted">верстка, Grid, Flex</div></div>
+          <div class="box"><b>JS</b><div class="muted">валидация, UI</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Быстрые факты</h3>
+        <p class="muted">• Учебные проекты и мини-сервисы</p>
+        <p class="muted">• Адаптивная верстка под телефон</p>
+        <p class="muted">• Чистая структура страниц</p>
+        <div style="margin-top:12px">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Grid</span>
+          <span class="tag">Flexbox</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid3">
+      <div class="card">
+        <h3>Структура</h3>
+        <p class="muted">4 страницы: главная, обо мне, портфолио, контакты.</p>
+      </div>
+      <div class="card">
+        <h3>Уникальность</h3>
+        <p class="muted">Авторский текст и собственные изображения/скриншоты.</p>
+      </div>
+      <div class="card">
+        <h3>Готово к хостингу</h3>
+        <p class="muted">Можно загрузить на Timeweb/Reg.ru как статический сайт.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div>© 2025 Арсений</div>
+    <div>
+      Телефон: <a href="tel:+79991234567">+7 (911) 819-90-54</a> ·
+      Email: <a href="mailto:example@mail.ru">senya-hamster@yandex.ru</a>
+    </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

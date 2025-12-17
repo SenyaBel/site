@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Обо мне — Арсений</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container topbar">
+    <a class="brand" href="index.html">
+      <svg class="svgIcon"><use href="assets/icons.svg#spark"></use></svg>
+      Arseny <span class="badge">About</span>
+    </a>
+    <button class="menuBtn">Меню</button>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="grid2">
+      <div class="card">
+        <h2>Обо мне</h2>
+        <p class="muted">
+          Меня зовут Арсений. Я развиваюсь в направлении веб-разработки и прикладных IT-проектов.
+          В этой работе я сделал многостраничный сайт-портфолио вручную без конструкторов:
+          продумал структуру, стили, адаптивность и добавил JavaScript-логику (например, проверку email в форме).
+          Сайт показывает мои навыки работы с HTML5, CSS Grid/Flexbox и базовыми UI-сценариями.
+        </p>
+
+        <h3>Навыки</h3>
+        <div>
+          <span class="tag">Верстка</span>
+          <span class="tag">Адаптив</span>
+          <span class="tag">Grid</span>
+          <span class="tag">Формы</span>
+          <span class="tag">Валидация</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Фото автора (оригинальное)</h3>
+        <img class="profile" src="images/photo.jpg" alt="Фото автора">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <h3>Небольшой таймлайн</h3>
+      <p class="muted">• Идея → структура страниц → дизайн → адаптив → тест на мобильных.</p>
+      <p class="muted">• Добавлены: SVG-иконки, галерея, форма с проверкой email, кликабельные контакты.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div>© 2025 Арсений</div>
+    <div>
+      Телефон: <a href="tel:+79991234567">+7 (911) 819-90-54</a> ·
+      Email: <a href="mailto:example@mail.ru">senya-hamster@yandex.ru</a>
+    </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
